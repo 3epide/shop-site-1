@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .entire{
+          display: flex;
+          flex-direction: row;
+          justify-content:space-between;
+          align-items: center;
+          margin: 20px 10px;
+        }
+        .title{
+            margin-left: 20px;
+        }
+        .title a{
+            font-size: 30px;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .header-botton a{
+            text-decoration: none;
+            font-size: 18px;
+            color: black;
+            font-family:Arial, Helvetica, sans-serif;
+            padding: 10px 30px;
+
+        }
+        .header-logo img{
+            margin-right: 30px;
+        }
+        .header-botton a:hover{
+            color:red
+ 
+        }
+    </style>
+</head>
+<body>
+    <div class="header-section">
+        <div class="entire">
+            <div class="title">
+            <a>saminhints</a>
+            </div>
+            <div class="header-botton">
+            <a class="titr1" href="index.html">Home</a>
+            <a class="titr1" href="about.html">About</a>
+            <a class="titr1" href="product.html">Product</a>
+            <a class="titr1" href="blog.html">Blog</a>
+            <a class="titr1" href="contact.html">Contact</a>
+            </div>
+            <div class="header-logo">
+            <a href="#"><img src="images/user-icon.png"></a>
+            <a href="#"><img src="images/trolly-icon.png"></a>
+            <a href="#"> <img src="images/search-icon.png"></a>
+            </div>    
+        </div>
+    </div>
+</body>
+</html>

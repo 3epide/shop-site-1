@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blogmystyle</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        h1,
+        p,
+        a {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .row-tow,
+        .row-one {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .blog_title {
+            width: 100%;
+            font-size: 40px;
+            color: #464646;
+            text-transform: uppercase;
+            font-weight: bold;
+            padding: 60px 0px 25px 108px;
+        }
+
+        .blog_section2 {
+            width: 100%;
+            padding-top: 50px;
+        }
+
+        .face_text {
+            width: 100%;
+            float: left;
+            font-size: 30px;
+            color: #575757;
+            padding-top: 120px;
+        }
+
+        .lorem_text {
+            width: 100%;
+            float: left;
+            font-size: 16px;
+            color: #575757;
+            margin: 0px;
+        }
+
+        .explain2,
+        .explain1 {
+            width: 745px;
+
+        }
+
+        .explain1,
+        .explain2 p,
+        h1 {
+            text-align: left;
+        }
+
+        .face_img img {
+            padding: 30px;
+        }
+
+        .read_botton {
+            width: 170px;
+            float: left;
+            margin-top: 67px;
+        }
+
+        .read_botton a {
+            width: 100%;
+            float: left;
+            font-size: 18px;
+            text-align: center;
+            color: #ffffff;
+            background-color: #363636;
+            padding: 15px 10px;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .read_botton a:hover {
+            color: #ffffff;
+            background-color: #f2515e;
+        }
+
+        .readmore_botton {
+            width: 170px;
+            float: right;
+            margin-top: 67px;
+
+        }
+
+        .readmore_botton a {
+            width: 100%;
+            float: left;
+            font-size: 18px;
+            text-align: center;
+            color: #ffffff;
+            background-color: #363636;
+            padding: 15px 10px;
+            text-decoration: none;
+            margin-left: -20px;
+        }
+
+        .readmore_botton a:hover {
+            color: #ffffff;
+            background-color: #f2515e;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="blog_section ">
+        <div class="blog-container">
+            <h1 class="blog_title">Latest Blog</h1>
+            <div class="blog_section2">
+                <div class="row-one">
+                    <div class="picture1">
+                        <div class="face_img"><img src="images/face-img.png" class="face_img"></div>
+                    </div>
+                    <div class="explain1">
+                        <h1 class="face_text">Face Cream Very mosurations</h1>
+                        <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laborisLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        </p>
+                        <div class="read_botton"><a href="#">Read More</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog_section3">
+                <div class="row-tow">
+                    <div class="explain2">
+                        <h1 class="face_text">Face Cream Very mosurations Skin</h1>
+                        <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laborisLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        </p>
+                        <div class="readmore_botton"><a href="#">Read More</a></div>
+                    </div>
+                    <div class="picture">
+                        <div class="face_img"><img src="images/face-img1.png" class="face_img"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
